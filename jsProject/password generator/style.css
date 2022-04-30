@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: rgb(21, 58, 53);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    border: rgb(255, 255, 255) 2px solid;
+    border-radius: 10px;
+    padding: 24px;
+    background: rgb(72, 119, 146);
+}
+textarea{
+    resize: none;
+    border: rgb(255, 255, 255) 2px solid;
+    border-radius: 2px;
+    height: 40px;
+    width: 180px;
+    background: rgb(5, 87, 107);
+    margin: 10px;
+    color: yellow;
+    padding: 2px 8px;
+    outline: none;
+    
+}
+textarea::placeholder{
+    color: yellow;
+}
+#cpy{
+    border: rgb(255, 255, 255) 2px solid;
+    border-radius: 1px;
+    height: 20px;
+    width: 50px;
+    background: rgb(5, 87, 107);
+    margin: 0px;
+    color: yellow;
+    position: relative;
+    left: 0px;
+    top: -30px;
+}
+#limit{
+    border: rgb(255, 255, 255) 2px solid;
+    height: 30px;
+    width: 80px;
+    background: rgb(5, 87, 107);
+    margin: 10px;
+    padding: 2px 4px;
+    color: white;
+    outline: none;
+
+}
+.len{
+    border: rgb(255, 255, 255) 2px solid;
+    border-radius: 4px;
+    margin: 2px;
+
+}
+.sp {
+    color: white;
+    padding: 6px 4px;
+}
+
+.spr {
+    color: white;
+    padding: 6px 4px;
+}
+.btn-c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn {
+    border: rgb(255, 255, 255) 2px solid;
+    border-radius: 2px;
+    height: 40px;
+    width: 180px;
+    background: rgb(5, 87, 107);
+    margin: 10px;
+    color: yellow;
+}
